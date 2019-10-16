@@ -5,7 +5,8 @@ puts thing.inspect
 
 
 def load_library
-  # code goes here
+  data = YAML.load_file('lib/emoticons.yml')
+return thing.inspect
 end
 
 def get_japanese_emoticon
